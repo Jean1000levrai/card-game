@@ -1,7 +1,8 @@
 Travail effectué par Jean Salomon, Isidore Billard, Baptiste Bumann
 
 Dossier:
-    -README.txt
+
+    -README.md
     le document explicatif
 
     -main.py
@@ -14,9 +15,10 @@ Dossier:
     -img
     contient toutes les images utilisés pour l'interface graphique
 
-1.  Classes et fonctions (méthodes):
-    main.py:  
-        On a créé une classe nommé Jeu_de_carte qui contient toutes les cartes, on peut soit:
+1. Classes et fonctions (méthodes):
+    main.py:
+   
+       On a créé une classe nommé Jeu_de_carte qui contient toutes les cartes, on peut soit:
         l’instancier vide (jeux des deux joueurs qui s’affrontent)
         l’instancier avec 52 cartes (jeu de carte de base qu’on trie et distribue)
         Les attributs de Jeu_de_carte sont:
@@ -34,7 +36,6 @@ Dossier:
             tirer => retire et renvoie la première carte du paquet
         Dans le constructeur, on a la mise en place de toutes les cartes dans l’attribut pioche grâce à des boucles “for”
         et la mise en place des dictionnaires qui vont servir d’index pour les cartes (valeur et enseigne).
-
         Ensuite, on a créé une deuxième classe "Bataille" qui hérite de la classe "Jeu_de_carte", qui contient
         un jeu de cartes avec toutes les méthodes nécessaires pour y jouer.
         Les attributs de Bataille sont:
@@ -49,27 +50,29 @@ Dossier:
             verdict => méthode qui décide de quel joueur gagne le tour en comparant le nombre de cartes gagnés et renvoyant un nombre 
             qui correspond à un certain cas, 0 => égalité, 1 => joueur 1 gagne, 2 => joueur 2 gagne
         Dans le constructeur, on a la mise en place des 2 paquets de cartes pour les 2 joueurs, suivi par les points des joueurs et le nombre de tour écoulé.
-    graphic_interface.py :
-        On réutilise le code de la classe Bataille pour créer le même jeu avec une interface graphique.
-        On a 2 fonction dans ce code:
+        graphic_interface.py :
+            On réutilise le code de la classe Bataille pour créer le même jeu avec une interface graphique.
+            On a 2 fonction dans ce code:
             charger_image => fonction qui sert sert à charger les images. Elle prend en parametre : le chemin d'acces(chemin),
                             indice du debut(index_debut) et fin/le nombre d'image(nb_image), un tuple pour la taille de l'image 
                             et booléen pour savoir si l'image doit être tournée ou non
                             on utilisera la methode ".extend" pour remplir une liste si besoin
             turn => fonction qui controle le fonctionnement du tour avec les comparaisons de cartes, lancée par le button "tour"
-2.  Comparaison de la valeur des cartes:
-    On a trois possibilités pour les comparaisons des cartes, qui se fait à partir de la valeur des cartes qu’on tire (ex: 3 (trois) < 14 (As)):
-    carte 1 = carte 2, les 2 cartes sont égales donc on a une bataille: on garde de côté les 2 cartes tirées et on en tire 2 autres, 
-        la prochaine comparaison ne donnera plus 2 points (car on mettait en jeu 2 cartes), mais 6, soit +4, c’est la variable valeur qui est modifiée, 
-        et une autre comparaison est lancé (avec 6 points en jeu car on a posé 6 cartes, plus 4 si on a déjà une bataille), 
-        après cette dernière tout revient à la normale avec valeur = 2.
-        La seule exception est si une bataille se produit à la fin, alors on ajoute pas de points (plus assez de cartes)
-
-    carte 1 < carte 2, le joueur 2 gagne cette comparaison et donc 2 points (2 cartes) ou le nombre de carte posé si il y a eu une bataille
-    carte 1 > carte 2, le joueur 1 gagne cette comparaison et donc 2 points (2 cartes) ou le nombre de carte posé si il y a eu une bataille
+3.  Comparaison de la valeur des cartes:
 
 
-3. Jeu de test : 
+           On a trois possibilités pour les comparaisons des cartes, qui se fait à partir de la valeur des cartes qu’on tire (ex: 3 (trois) < 14 (As)):
+            carte 1 = carte 2, les 2 cartes sont égales donc on a une bataille: on garde de côté les 2 cartes tirées et on en tire 2 autres, 
+            la prochaine comparaison ne donnera plus 2 points (car on mettait en jeu 2 cartes), mais 6, soit +4, c’est la variable valeur qui est modifiée, 
+            et une autre comparaison est lancé (avec 6 points en jeu car on a posé 6 cartes, plus 4 si on a déjà une bataille), 
+            après cette dernière tout revient à la normale avec valeur = 2.
+            La seule exception est si une bataille se produit à la fin, alors on ajoute pas de points (plus assez de cartes)
+
+        carte 1 < carte 2, le joueur 2 gagne cette comparaison et donc 2 points (2 cartes) ou le nombre de carte posé si il y a eu une bataille
+        carte 1 > carte 2, le joueur 1 gagne cette comparaison et donc 2 points (2 cartes) ou le nombre de carte posé si il y a eu une bataille
+
+
+5. Jeu de test : 
     Comme jeu de test voici le déroulement d’une partie instantanée 
     avec la valeur des cartes et le nombre de point de chaque joueurs :
 
