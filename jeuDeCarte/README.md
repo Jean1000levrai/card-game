@@ -1,4 +1,4 @@
-Travail effectué par Jean Salomon, Isidore Billard, Baptiste Bumann
+(https://github.com/EmberDragons)
 
 Dossier:
 
