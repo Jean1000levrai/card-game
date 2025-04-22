@@ -76,73 +76,73 @@ Dossier:
     Comme jeu de test voici le déroulement d’une partie instantanée 
     avec la valeur des cartes et le nombre de point de chaque joueurs :
 
-    point : j1 : 0/ j2 : 0
-    valeur de la carte du joueur 1 : 12
-    valeur de la carte du joueur 2 : 12
-    BATAILLLLLE!!!!!!!
-    point : j1 : 0/ j2 : 0
-    valeur de la carte du joueur 1 : 12
-    valeur de la carte du joueur 2 : 10
-    point : j1 : 6/ j2 : 0
-    valeur de la carte du joueur 1 : 2
-    valeur de la carte du joueur 2 : 6
-    point : j1 : 6/ j2 : 2
-    valeur de la carte du joueur 1 : 14
-    valeur de la carte du joueur 2 : 5
-    point : j1 : 8/ j2 : 2
-    valeur de la carte du joueur 1 : 11
-    valeur de la carte du joueur 2 : 4
-    point : j1 : 10/ j2 : 2
-    valeur de la carte du joueur 1 : 7
-    valeur de la carte du joueur 2 : 6
-    point : j1 : 12/ j2 : 2
-    valeur de la carte du joueur 1 : 10
-    valeur de la carte du joueur 2 : 11
-    point : j1 : 12/ j2 : 4
-    valeur de la carte du joueur 1 : 14
-    valeur de la carte du joueur 2 : 8
-    point : j1 : 14/ j2 : 4
-    valeur de la carte du joueur 1 : 5
-    valeur de la carte du joueur 2 : 3
-    point : j1 : 16/ j2 : 4
-    valeur de la carte du joueur 1 : 10
-    valeur de la carte du joueur 2 : 9
-    point : j1 : 18/ j2 : 4
-    valeur de la carte du joueur 1 : 6
-    valeur de la carte du joueur 2 : 5
-    point : j1 : 20/ j2 : 4
-    valeur de la carte du joueur 1 : 13
-    valeur de la carte du joueur 2 : 4
-    point : j1 : 22/ j2 : 4
-    valeur de la carte du joueur 1 : 14
-    valeur de la carte du joueur 2 : 14
-    BATAILLLLLE!!!!!!!
-    point : j1 : 22/ j2 : 4
-    valeur de la carte du joueur 1 : 2
-    valeur de la carte du joueur 2 : 2
-    BATAILLLLLE!!!!!!!
-    point : j1 : 22/ j2 : 4
-    valeur de la carte du joueur 1 : 7
-    valeur de la carte du joueur 2 : 3
-    point : j1 : 32/ j2 : 4
-    valeur de la carte du joueur 1 : 4
-    valeur de la carte du joueur 2 : 11
-    point : j1 : 32/ j2 : 6
-    valeur de la carte du joueur 1 : 9
-    valeur de la carte du joueur 2 : 12
-    point : j1 : 32/ j2 : 8
-    valeur de la carte du joueur 1 : 8
-    valeur de la carte du joueur 2 : 8
-    BATAILLLLLE!!!!!!!
-    point : j1 : 32/ j2 : 8
-    valeur de la carte du joueur 1 : 2
-    valeur de la carte du joueur 2 : 13
-    point : j1 : 32/ j2 : 14
-    valeur de la carte du joueur 1 : 7
-    valeur de la carte du joueur 2 : 9
-    point : j1 : 32/ j2 : 16
-    valeur de la carte du joueur 1 : 8
-    valeur de la carte du joueur 2 : 4
+        point : j1 : 0/ j2 : 0
+        valeur de la carte du joueur 1 : 12
+        valeur de la carte du joueur 2 : 12
+        BATAILLLLLE!!!!!!!
+        point : j1 : 0/ j2 : 0
+        valeur de la carte du joueur 1 : 12
+        valeur de la carte du joueur 2 : 10
+        point : j1 : 6/ j2 : 0
+        valeur de la carte du joueur 1 : 2
+        valeur de la carte du joueur 2 : 6
+        point : j1 : 6/ j2 : 2
+        valeur de la carte du joueur 1 : 14
+        valeur de la carte du joueur 2 : 5
+        point : j1 : 8/ j2 : 2
+        valeur de la carte du joueur 1 : 11
+        valeur de la carte du joueur 2 : 4
+        point : j1 : 10/ j2 : 2
+        valeur de la carte du joueur 1 : 7
+        valeur de la carte du joueur 2 : 6
+        point : j1 : 12/ j2 : 2
+        valeur de la carte du joueur 1 : 10
+        valeur de la carte du joueur 2 : 11
+        point : j1 : 12/ j2 : 4
+        valeur de la carte du joueur 1 : 14
+        valeur de la carte du joueur 2 : 8
+        point : j1 : 14/ j2 : 4
+        valeur de la carte du joueur 1 : 5
+        valeur de la carte du joueur 2 : 3
+        point : j1 : 16/ j2 : 4
+        valeur de la carte du joueur 1 : 10
+        valeur de la carte du joueur 2 : 9
+        point : j1 : 18/ j2 : 4
+        valeur de la carte du joueur 1 : 6
+        valeur de la carte du joueur 2 : 5
+        point : j1 : 20/ j2 : 4
+        valeur de la carte du joueur 1 : 13
+        valeur de la carte du joueur 2 : 4
+        point : j1 : 22/ j2 : 4
+        valeur de la carte du joueur 1 : 14
+        valeur de la carte du joueur 2 : 14
+        BATAILLLLLE!!!!!!!
+        point : j1 : 22/ j2 : 4
+        valeur de la carte du joueur 1 : 2
+        valeur de la carte du joueur 2 : 2
+        BATAILLLLLE!!!!!!!
+        point : j1 : 22/ j2 : 4
+        valeur de la carte du joueur 1 : 7
+        valeur de la carte du joueur 2 : 3
+        point : j1 : 32/ j2 : 4
+        valeur de la carte du joueur 1 : 4
+        valeur de la carte du joueur 2 : 11
+        point : j1 : 32/ j2 : 6
+        valeur de la carte du joueur 1 : 9
+        valeur de la carte du joueur 2 : 12
+        point : j1 : 32/ j2 : 8
+        valeur de la carte du joueur 1 : 8
+        valeur de la carte du joueur 2 : 8
+        BATAILLLLLE!!!!!!!
+        point : j1 : 32/ j2 : 8
+        valeur de la carte du joueur 1 : 2
+        valeur de la carte du joueur 2 : 13
+        point : j1 : 32/ j2 : 14
+        valeur de la carte du joueur 1 : 7
+        valeur de la carte du joueur 2 : 9
+        point : j1 : 32/ j2 : 16
+        valeur de la carte du joueur 1 : 8
+        valeur de la carte du joueur 2 : 4
     point : j1 : 34/ j2 : 16
     valeur de la carte du joueur 1 : 6
     valeur de la carte du joueur 2 : 10
